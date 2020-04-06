@@ -1,0 +1,153 @@
+h2{
+
+color:blue;
+
+
+}
+  .form_input{
+    position: relative;
+    margin-bottom:1rem;
+    display: flex;
+    flex-direction: column;
+}
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+input{
+    
+
+    margin:0;
+    padding-left: .75rem;
+    padding-right: .5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    outline:none;
+    color: #1a202c;
+    background-color: #edf2f7;
+    border: 0 solid #e2e8f0;
+    border-radius: 1.25rem 1.25rem 1.25rem 0;
+    text-shadow: none;
+    cursor:text;
+    font-size: 100%;
+    font-family:body;
+    
+}
+input:focus{
+    outline-offset: -2px;
+}
+.form_control{
+    overflow-y: auto;
+    min-height: min-content;
+    display:flex;
+    flex-direction: column;
+    flex-flow: 1;
+    flex-shrink: 1;
+    justify-content: center;
+    align-items: center;
+    max-width: 28rem;
+
+margin:auto;
+width:45%;
+border:3px solid white;
+padding: 10px;
+background-color: white;
+}
+.form_control{
+
+    background-color:white;
+    width: 89%;
+    max-width: 28rem;
+    padding:2rem 2rem 2.5rem;
+    border-radius:1.25rem 1.25rem 1.25rem 0;
+    border: 0 solid #e2e8f0;
+    display: flex;
+    flex-direction: column;
+
+}
+  
+  select {
+     
+
+     margin:0;
+    padding-left:.75rem;
+    padding-left: .5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    outline:none;
+    color:#1a202c;
+    background-color:#edf2f7;
+    border:0 solid #e2e8f0;
+    border-radius: .25rem;
+    text-shadow: none;
+    cursor: text;
+    font-size: 100%;
+    font-family: body;
+
+    
+
+
+  }
+  select {
+
+
+
+  font-size: 13px;
+  padding: 10px 8px 10px 14px;
+  background:#edf2f7 ;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+
+select{
+  width: 100%;
+  
+  background-position:80% center;
+}
+select{
+  background: transparent;
+  line-height: 1;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  font-size: 1em;
+}
+.submit{
+  background-color:rgb(8, 62, 158) ;
+    color:#fff;
+    width:100%;
+    padding:1.25rem 2.5rem 1rem;
+    outline:none;
+    text-decoration:none;
+    border-radius: .75rem .75rem .75rem 0;
+    border: 0 solid #e2e8f0;
+    font-size: .875rem;
+    font-weight:700;
+    font-family: U8, sans-serif;
+    text-shadow: none;
+    white-space: nowrap;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-appearance: button;
+    text-align: center;
+
+}
+
+    
+  
+
+html{
+    background-color:#ADD8E6;
+}
+
+.pp{
+    justify-content: center;
+    display:flex;
+    text-align: center;
+    color:white;
+}
